@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --color-brand-navy: #101828;
+  --color-brand-slate: #667085;
+  --color-brand-emerald: #059669;
+  --color-brand-emerald-hover: #047857;
+  --color-brand-emerald-active: #065f46;
+  --color-brand-bg-subtle: #f6f8fc;
+  --color-brand-border: #e4e7ec;
+  --color-bmtc-blue: #2563eb;
+  --color-metro-purple: #7c3aed;
+  --color-walk-green: #059669;
+  --radius-card: 18px;
+}
+
+/* Accessibility: Disable transform & motion animations when user prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transform: none !important;
+  }
+}

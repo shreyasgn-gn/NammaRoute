@@ -1,0 +1,6 @@
+{
+  "name": "Namma Route — Bengaluru Travel Assistant",
+  "description": "Simple, reliable travel guidance for everyone navigating Bengaluru using BMTC buses, Namma Metro, and walking directions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
